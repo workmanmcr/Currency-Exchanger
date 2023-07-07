@@ -1,0 +1,49 @@
+{
+  "name": "exchange",
+  "version": "1.0.0",
+  "description": "By: Mike Workman",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "start": "npm run build && webpack serve --mode=development",
+    "lint": "eslint src --ext .js --fix",
+    "test": "jest --coverage",
+    "tsc": "tsc"
+  },
+  "keywords": [],
+  "author": "Mike Workman",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.22.5",
+    "@babel/plugin-transform-modules-commonjs": "^7.22.5",
+    "babel": "^6.23.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.8.1",
+    "dotenv-webpack": "^8.0.1",
+    "eslint": "^8.43.0",
+    "eslint-webpack-plugin": "^4.0.1",
+    "file-loader": "^6.2.0",
+    "html-loader": "^4.2.0",
+    "html-webpack-plugin": "^5.5.3",
+    "jest": "^29.5.0",
+    "jest-each": "^29.5.0",
+    "style-loader": "^3.3.3",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.0.0"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "babel-loader": "^9.1.2",
+    "node-fetch": "^3.3.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/workmanmcr/Currency-Exchanger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/workmanmcr/Currency-Exchanger/issues"
+  },
+  "homepage": "https://github.com/workmanmcr/Currency-Exchanger#readme"
+}
